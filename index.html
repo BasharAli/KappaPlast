@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title> KappaPlast Leb</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <main role="main" id="main">
+        <div class="container-fluid contnav" style="max-width: 100%; padding: 0 !important;">
+            <nav class="navbar navbar-expand-md navbar-light " id="top1">
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item  text-center">
+                            <a class="nav-link" href="#"><i class="fa fa-facebook-official fbicon" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="#"><i class="fa fa-instagram inicon" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="#"><i class="fa fa-google-plus-square goicon" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="#"><i class="fa fa-whatsapp whicon" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="navbar navbar-expand-md navbar-light  secondnav">
+                <a class="navbar-brand" href="index.html">
+                    <img class="img-fluid" src="images/logo.png" />
+                </a>
+
+                <div class="collapse navbar-collapse indigo topLeftBorders " id="secondiv">
+                    <ul class="navbar-nav mr-auto ">
+                        <li class="nav-item  text-center  ">
+                            <a class="nav-link" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="products.html">PRODUCTS</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="services.html">SERVICES</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="contact.html">CONTACT US</a>
+                        </li>
+                    </ul>
+                    <label><input type="text" id="search-bar"><span class="search-icon"></span></label>
+                </div>
+            </nav>
+        </div>
+        <nav class="navbar navbar-expand-md navbar-light togglenav">
+            <a class="navbar-brand" href="#">
+                <img class="img-fluid" src="images/logo.png" />
+            </a>
+            <span class="sidnavtogbutt" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+        </nav>
+        <div id="mySidenav" class="sidenav text-center">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">HOME</a>
+            <a href="services.html">SERVICES</a>
+            <a href="products.html">PRODUCTS</a>
+            <a href="contact.html">CONTACT US</a>
+            <label style="margin: auto;"><input type="text" id="search-bar"><span class="search-icon"></span></label>
+            <ul style="display: flex; list-style: none; margin: auto; padding: 10px;">
+                <li class="nav-item  text-center">
+                    <a class="nav-link" href="#"><i class="fa fa-facebook-official fbicon" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link" href="#"><i class="fa fa-instagram inicon" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link" href="#"><i class="fa fa-google-plus-square goicon" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link" href="#"><i class="fa fa-whatsapp whicon" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
+
+
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+
+                    <div class=" carousel-text">
+                        <h1>We Are The Best.</h1>
+                        <p>et metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+
+                    <div class=" carousel-text">
+                        <h1> We Are The Best.</h1>
+                        <p>et metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+                    <div class=" carousel-text">
+                        <h1> We Are The Best.</h1>
+                        <p>et metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="container">
+            <div class="container-fluid top-intro">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>
+                            LEADERS IN LOREM IPSUM BLA BLA BLA BLA
+                        </h1>
+                        <a href="#" type="button" class=" btn-se">
+                            LEARN MORE
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores repellendus aperiam minus itaque labore odit et eos sapiente. Provident doloribus ratione harum et illum, dolore voluptatum molestiae quam delectus vero.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <video width="100%" height="550px" autoplay controls>
+
+                </video>
+            </div>
+            <div class="container-fluid">
+                <div class="container-fluid">
+                    <h1 class="text-left">
+                        Sectors
+                    </h1>
+                    <p class="text-left">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 contbox">
+                        <img width="100%" height="350px" />
+                        <div class="captext">
+                            <h2>
+                                Subtitle
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit tenetur minima, provident nam dicta eligendi excepturi neque explicabo! Deserunt quibusdam molestias porro ea distinctio asperiores qui aliquid laborum eveniet harum?
+                            </p>
+                        </div>
+                        <a class="stretched-link" href="#"></a>
+                    </div>
+                    <div class="col-md-6">
+                        <img width="100%" height="350px" />
+                        <div class="captext">
+                            <h2>
+                                Subtitle
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit tenetur minima, provident nam dicta eligendi excepturi neque explicabo! Deserunt quibusdam molestias porro ea distinctio asperiores qui aliquid laborum eveniet harum?
+                            </p>
+                        </div>
+                        <a class="stretched-link" href="#"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img width="100%" height="350px" />
+                        <div class="captext">
+                            <h2>
+                                Subtitle
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit tenetur minima, provident nam dicta eligendi excepturi neque explicabo! Deserunt quibusdam molestias porro ea distinctio asperiores qui aliquid laborum eveniet harum?
+                            </p>
+                        </div>
+                        <a class="stretched-link" href="#"></a>
+                    </div>
+                    <div class="col-md-6">
+                        <img width="100%" height="350px" />
+                        <div class="captext">
+                            <h2>
+                                Subtitle
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit tenetur minima, provident nam dicta eligendi excepturi neque explicabo! Deserunt quibusdam molestias porro ea distinctio asperiores qui aliquid laborum eveniet harum?
+                            </p>
+                        </div>
+                        <a class="stretched-link" href="#"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <h1 class="text-left">
+                    Sectors
+                </h1>
+                <p class="text-left">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img width="100%" height="350px" />
+                    <div class="captext">
+                        <h2>
+                            Subtitle
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit tenetur minima, provident nam dicta eligendi excepturi neque explicabo! Deserunt quibusdam molestias porro ea distinctio asperiores qui aliquid laborum eveniet harum?
+                        </p>
+                    </div>
+                    <a class="stretched-link" href="#"></a>
+                </div>
+                <div class="col-md-6">
+                    <img width="100%" height="350px" />
+                    <div class="captext">
+                        <h2>
+                            Subtitle
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit tenetur minima, provident nam dicta eligendi excepturi neque explicabo! Deserunt quibusdam molestias porro ea distinctio asperiores qui aliquid laborum eveniet harum?
+                        </p>
+                    </div>
+                    <a class="stretched-link" href="#"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img width="100%" height="350px" />
+                    <div class="captext">
+                        <h2>
+                            Subtitle
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit tenetur minima, provident nam dicta eligendi excepturi neque explicabo! Deserunt quibusdam molestias porro ea distinctio asperiores qui aliquid laborum eveniet harum?
+                        </p>
+                    </div>
+                    <a class="stretched-link" href="#"></a>
+                </div>
+                <div class="col-md-6">
+                    <img width="100%" height="350px" />
+                    <div class="captext">
+                        <h2>
+                            Subtitle
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit tenetur minima, provident nam dicta eligendi excepturi neque explicabo! Deserunt quibusdam molestias porro ea distinctio asperiores qui aliquid laborum eveniet harum?
+                        </p>
+                    </div>
+                    <a class="stretched-link" href="#"></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="container-fluid before-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>
+                            CONTACT US
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nulla fugit unde harum distinctio quasi temporibus est minima reiciendis ratione maxime, atque non hic sequi voluptatibus similique, ullam odio repellendus?
+                        </p>
+                        <a href="#" type="button" class=" btn-se">
+                           CONTACT US
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>
+                            ABOUT US
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nulla fugit unde harum distinctio quasi temporibus est minima reiciendis ratione maxime, atque non hic sequi voluptatibus similique, ullam odio repellendus?
+                        </p>
+                        <a href="#" type="button" class=" btn-se">
+                          ABOUT US
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="imgcont">
+                            <img class="img-fluid" width="450px" height="104px" src="images/logo.png" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-6">
+                                <ul class="footlist footlinlist">
+                                    <li class="nav-item  text-center  ">
+                                        <a class="nav-link" href="index.html">HOME</a>
+                                    </li>
+                                    <li class="nav-item text-center">
+                                        <a class="nav-link" href="products.html">PRODUCTS</a>
+                                    </li>
+                                    <li class="nav-item text-center">
+                                        <a class="nav-link" href="services.html">SERVICES</a>
+                                    </li>
+                                    <li class="nav-item text-center">
+                                        <a class="nav-link" href="contact.html">CONTACT US</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="footlist footsoclist">
+                                    <li class="nav-item  text-center">
+                                        <a class="nav-link" href="#"><i class="fa fa-facebook-official fbicon" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li class="nav-item text-center">
+                                        <a class="nav-link" href="#"><i class="fa fa-instagram inicon" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li class="nav-item text-center">
+                                        <a class="nav-link" href="#"><i class="fa fa-google-plus-square goicon" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li class="nav-item text-center">
+                                        <a class="nav-link" href="#"><i class="fa fa-whatsapp whicon" aria-hidden="true"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid copyright">
+                    <p class="text-center">
+                        KappaPlast LB 2021 &copy; All Rights Reserved
+                    </p>
+                    <p class="text-center">
+                        WEBSITE TEMPLATE by Bashar Ali. All Rights Reserved &copy; 2021
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
